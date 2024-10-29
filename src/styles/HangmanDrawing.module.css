@@ -1,0 +1,95 @@
+.drawing_container {
+  position: relative;
+}
+
+.hanging_bar {
+  height: 50px;
+  width: 10px;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.top_bar {
+  height: 10px;
+  width: 200px;
+  background: white;
+  margin-left: 120px;
+}
+
+.upright_bar {
+  height: 400px;
+  width: 10px;
+  background: white;
+  margin-left: 120px;
+}
+
+.bottom_bar {
+  height: 10px;
+  width: 250px;
+  background: white;
+}
+
+.head {
+  width: 50px;
+  height: 50px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.body {
+  width: 10px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.right_arm {
+  width: 100px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: 150px;
+  right: -100px;
+  transform: rotate(-30deg);
+  transform-origin: left bottom;
+}
+
+.right_leg {
+  width: 100px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: 210px;
+  right: -90px;
+  transform: rotate(45deg);
+  transform-origin: left bottom;
+}
+
+.left_arm {
+  width: 100px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  transform: rotate(30deg);
+  transform-origin: right bottom;
+}
+
+.left_leg {
+  width: 100px;
+  height: 10px;
+  background: white;
+  position: absolute;
+  top: 210px;
+  right: 0;
+  transform: rotate(-45deg);
+  transform-origin: right bottom;
+}
